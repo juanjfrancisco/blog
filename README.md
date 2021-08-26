@@ -1,2 +1,2 @@
 # profile
-Just my profile
+Hi! I'm Juan
