@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juan J. Francisco</title>
+    <link>https://juanjfrancisco.com/</link>
+    <description>Recent content on Juan J. Francisco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Sep 2021 09:54:08 -0400</lastBuildDate><atom:link href="https://juanjfrancisco.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CsharpHelloWorld</title>
+      <link>https://juanjfrancisco.com/posts/csharphelloworld/</link>
+      <pubDate>Mon, 06 Sep 2021 09:54:08 -0400</pubDate>
+      
+      <guid>https://juanjfrancisco.com/posts/csharphelloworld/</guid>
+      <description>My first C# application, of course another hello world app. Just another c# application from scratch, as always an hello world it is!
+public void main (string[] args ) { Console.WriteLine(&amp;#34;Hello universe!&amp;#34;); } </description>
+    </item>
+    
+  </channel>
+</rss>
