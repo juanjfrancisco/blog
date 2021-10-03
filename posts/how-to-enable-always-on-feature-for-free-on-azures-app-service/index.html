@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.88.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>How to enable always-on feature for free on Azures App Service? &middot; Juan J. Francisco</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://juanjfrancisco.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://juanjfrancisco.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://juanjfrancisco.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://juanjfrancisco.com/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://juanjfrancisco.com/"><h1>Juan J. Francisco</h1></a>
+      <p class="lead">
+       Just a tiny place to put my thoughts! 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://juanjfrancisco.com/">Home</a> </li>
+        <li><a href="https://github.com/juanjfrancisco/"> Github </a></li><li><a href="https://www.linkedin.com/in/juanjfrancisco/"> LinkedIn </a></li><li><a href="/posts"> Posts </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>How to enable always-on feature for free on Azures App Service?</h1>
+  <time datetime=2021-10-03T11:47:08-0400 class="post-date">Sun, Oct 3, 2021</time>
+  <h2 id="how-to-enable-always-on-feature-for-free-on-azures-app-service">How to enable always-on feature for free on Azures App Service?</h2>
+<p>
+Do you find useful the free app services offered by azure?
+<p>Well, I do, it is a very good choice when it comes to test your application, but one thing that can be a little annoying is that Microsoft won’t let you use the feature for always-on, this one is only for basic or higher app service plan, but don&rsquo;t worry I found
+a solution that can help us to accomplish the same behavior and completely for free!</p>
+</p>
+<p>The service name is called <a href="https://uptimerobot.com/" target="_blank">uptimerobot</a>, a very simple to use service, let me show what we need to do:</p>
+<ol>
+<li>
+<p>Register to create a <a href="https://uptimerobot.com/signUp" target="_blank">free account</a>
+<img src="/images/how-to-enable-always-on-feature-for-free-on-azures-app-service/register.jpg" alt="register_image"></p>
+</li>
+<li>
+<p>After filling up all the information you will receive the activation info to your email account, go on with the boilerplate activation and login process, and once you are in the dashboard let’s configure our first monitor:</p>
+<p><img src="/images/how-to-enable-always-on-feature-for-free-on-azures-app-service/dashboard-add-new-monitor.jpg" alt="dashboard-add-new-monitor"></p>
+<p>After clicking <strong>&ldquo;Add new monitor&rdquo;</strong> our screen shows up and we choose monitor type <strong>https</strong>
+<img src="/images/how-to-enable-always-on-feature-for-free-on-azures-app-service/new-monitor-screen.jpg" alt="new-monitor-screen"></p>
+<p>At this point we need to indicate the interval, you can use the default that is 5 minutes, normally the inactivity time for an azure app service before goes idle is 20 minutes, that&rsquo;s way I use half (10 minutes). After that we are finished.</p>
+</li>
+</ol>
+<p>Now we can have our application always-on and we don&rsquo;t have to worry anymore about the slow time of come back up every time our app goes idle. So go and give it a try!</p>
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>

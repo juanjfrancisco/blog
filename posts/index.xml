@@ -6,15 +6,16 @@
     <description>Recent content in Posts on Juan J. Francisco</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Sep 2021 09:54:08 -0400</lastBuildDate><atom:link href="https://juanjfrancisco.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 11:47:08 -0400</lastBuildDate><atom:link href="https://juanjfrancisco.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to enable [always on] for free app services in Azure?</title>
-      <link>https://juanjfrancisco.com/posts/how-to-enable-alwayon-free-azure-appservices/</link>
-      <pubDate>Mon, 06 Sep 2021 09:54:08 -0400</pubDate>
+      <title>How to enable always-on feature for free on Azures App Service?</title>
+      <link>https://juanjfrancisco.com/posts/how-to-enable-always-on-feature-for-free-on-azures-app-service/</link>
+      <pubDate>Sun, 03 Oct 2021 11:47:08 -0400</pubDate>
       
-      <guid>https://juanjfrancisco.com/posts/how-to-enable-alwayon-free-azure-appservices/</guid>
-      <description>How to enable [always on] for free app services in Azure? Do you find usefull the free app services offer by azure? I do.
-Even thought it&amp;rsquo;s a very good choice when it comes to test your application also can be a little anoying thanks to the &amp;ldquo;always on&amp;rdquo; feature that is only enable for basic or higher app service plan, but don&amp;rsquo;t worry I found a solution that que help us to accomplish the same behavior and completed free!</description>
+      <guid>https://juanjfrancisco.com/posts/how-to-enable-always-on-feature-for-free-on-azures-app-service/</guid>
+      <description>&lt;h2 id=&#34;how-to-enable-always-on-feature-for-free-on-azures-app-service&#34;&gt;How to enable always-on feature for free on Azures App Service?&lt;/h2&gt;
+&lt;p&gt;
+Do you find useful the free app services offered by azure?</description>
     </item>
     
   </channel>
